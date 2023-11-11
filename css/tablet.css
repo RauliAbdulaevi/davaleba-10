@@ -1,0 +1,51 @@
+@media(max-width: 750px) {
+
+    /* header */
+    header {
+        padding-inline: 24px;
+    }
+
+    /* section1 */
+    .section1_title {
+        font-size: 36px;
+        line-height: 44px;
+    }
+    /* footer  */
+    footer{
+        justify-content: center;
+    }
+    .footer_main_div{
+        align-items: center;
+    }
+    .footer_links li {
+        text-align: center;
+    }
+}
+
+@media(max-width: 700px) {
+
+    /* header */
+    .header_navigation {
+        display: none;
+    }
+
+    .header_button {
+        display: none;
+    }
+
+    .burger_icon {
+        display: block;
+    }
+}
+
+@media(max-width: 650px) {
+    .section2_title {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .section2_txt {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
